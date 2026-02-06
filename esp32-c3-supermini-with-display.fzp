@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.10" moduleId="esp32-c3-supermini-with-display">
+	<version>3</version>
+	<title>ESP32-C3 SuperMini mit Display</title>
+	<label>ESP32-C3</label>
+	<author>Neumaennl</author>
+	<description>ESP32-C3 SuperMini Klon mit SSD1306 OLED, USB-C, BOOT/RST buttons</description>
+	<family>ESP32-C3</family>
+	<category>Microcontroller</category>
+	<properties>
+		<property name="family">ESP32-C3 SuperMini</property>
+		<property name="variant">with OLED</property>
+		<property name="MCU">ESP32-C3</property>
+		<property name="Voltage">3.3V</property>
+		<property name="Display">SSD1306 72x40</property>
+		<property name="Interface">I2C</property>
+		<property name="USB">USB-C</property>
+		<property name="Dimensions">20.5 x 25 mm</property>
+	</properties>
+	<views>
+		<breadboardView>
+			<image>breadboard/esp32-c3-supermini-with-display.svg</image>
+		</breadboardView>
+	</views>
+	<connectors>
+		<!-- Power -->
+		<connector id="usb" name="USB-C" type="usb">
+			<views>
+				<breadboardView>
+					<p svgId="usb_c"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<!-- Left header (top to bottom) -->
+		<connector id="5v" name="5V" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_5v"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gnd" name="GND" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gnd"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="3v3" name="3V3" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_3v3"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio20" name="RX / GPIO20" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio20"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio21" name="TX / GPIO21" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio21"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio2" name="A2 / GPIO2" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio2"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio1" name="A1 / GPIO1" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio1"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio0" name="A0 / GPIO0" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio0"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<!-- Right header (top to bottom) -->
+		<connector id="gpio10" name="GPIO10" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio10"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio9" name="GPIO9 / SCL / BOOT button" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio9"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio8" name="GPIO8 / SDA / onboard LED" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio8"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio7" name="GPIO7 / SS" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio7"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio6" name="GPIO6 / MOSI" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio6"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio5" name="GPIO5 / A5 / MISO" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio5"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio4" name="GPIO4 / A4" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio4"/>
+				</breadboardView>
+			</views>
+		</connector>
+		<connector id="gpio3" name="GPIO3 / A3" type="male">
+			<views>
+				<breadboardView>
+					<p svgId="pin_gpio3"/>
+				</breadboardView>
+			</views>
+		</connector>
+	</connectors>
+</module>
