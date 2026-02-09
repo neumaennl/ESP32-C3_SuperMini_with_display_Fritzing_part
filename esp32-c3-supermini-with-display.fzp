@@ -9,6 +9,7 @@
 	<category>Microcontroller</category>
 	<properties>
 		<property name="family">ESP32-C3 SuperMini</property>
+		<property name='type'>ESP32-C3 SuperMini Klon mit SSD1306 OLED</property>
 		<property name="variant">with OLED</property>
 		<property name="MCU">ESP32-C3</property>
 		<property name="Voltage">3.3V</property>
@@ -20,6 +21,7 @@
 	<views>
 		<breadboardView>
 			<image>breadboard/esp32-c3-supermini-with-display.svg</image>
+			<layer layerId='breadboard'/>
 		</breadboardView>
 	</views>
 	<connectors>
