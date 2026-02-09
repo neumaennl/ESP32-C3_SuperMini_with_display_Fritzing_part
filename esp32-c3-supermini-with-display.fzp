@@ -20,8 +20,9 @@
 	</properties>
 	<views>
 		<breadboardView>
-			<image>breadboard/esp32-c3-supermini-with-display.svg</image>
-			<layer layerId='breadboard'/>
+			<layers image="breadboard/esp32-c3-supermini-with-display.svg">
+				<layer layerId='breadboard'/>
+			</layers>
 		</breadboardView>
 	</views>
 	<connectors>
