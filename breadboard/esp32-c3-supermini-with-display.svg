@@ -9,47 +9,47 @@
 		<rect id="onboard_led" x="39" y="40" width="8" height="12" fill="#3fa9ff"/>
 		<rect id="power_led" x="160" y="40" width="8" height="12" fill="#ff3b3b"/>
 		<rect id="display" x="46" y="161" width="115" height="65" rx="2" fill="#000000" stroke="#222222" stroke-width="2.5"/>
-		<text id="dislay_label" x="100" y="180" font-family="'ocra10'" font-size="8px" fill="#E6E6E6" text-anchor="middle"><tspan id="display_label_line1" x="102.5" y="185">SSD1306 OLED</tspan><tspan id="display_label_line2" x="102.5" y="195">resolution 72x40</tspan><tspan id="display_label_line3" x="102.5" y="205">origin at (28,24)</tspan></text>
+		<text id="dislay_label" x="100" y="180" font-family="'OCRA'" font-size="8px" fill="#E6E6E6" text-anchor="middle"><tspan id="display_label_line1" x="102.5" y="185">SSD1306 OLED</tspan><tspan id="display_label_line2" x="102.5" y="195">resolution 72x40</tspan><tspan id="display_label_line3" x="102.5" y="205">origin at (28,24)</tspan></text>
 		<rect id="boot_button" x="19" y="242" width="38" height="24" rx="3" fill="#8C8C8C"/>
-		<text id="boot_button_label" x="38" y="256" font-family="'ocra10'" font-size="7px" fill="#E6E6E6" text-anchor="middle">BOOT</text>
+		<text id="boot_button_label" x="38" y="256" font-family="'OCRA'" font-size="7px" fill="#E6E6E6" text-anchor="middle">BOOT</text>
 		<rect id="reset_button" x="148" y="242" width="38" height="24" rx="3" fill="#8C8C8C"/>
-		<text id="reset_button_label" x="168" y="256" font-family="'ocra10'" font-size="7px" fill="#E6E6E6" text-anchor="middle">RESET</text>
+		<text id="reset_button_label" x="168" y="256" font-family="'OCRA'" font-size="7px" fill="#E6E6E6" text-anchor="middle">RESET</text>
 		<rect id="ceramic_antenna" x="90" y="250" width="25" height="15" rx="1" fill="#CA0000"/>
 		<g id="left_pins_with_labels" font-size="8px" fill="#E6E6E6">
 			<circle id="pin_5v" cx="11" cy="43" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_5v_label" x="23" y="45" font-family="'ocra10'">5V</text>
+			<text id="pin_5v_label" x="23" y="45" font-family="'OCRA'">5V</text>
 			<circle id="pin_gnd" cx="11" cy="68.4" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gnd_label" x="23" y="70.4" font-family="'ocra10'">GND</text>
+			<text id="pin_gnd_label" x="23" y="70.4" font-family="'OCRA'">GND</text>
 			<circle id="pin_3v3" cx="11" cy="93.8" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_3v3_label" x="23" y="95.8" font-family="'ocra10'">3V3</text>
+			<text id="pin_3v3_label" x="23" y="95.8" font-family="'OCRA'">3V3</text>
 			<circle id="pin_gpio20" cx="11" cy="119.2" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio20_label" x="23" y="121.2" font-family="'ocra10'">RX</text>
+			<text id="pin_gpio20_label" x="23" y="121.2" font-family="'OCRA'">RX</text>
 			<circle id="pin_gpio21" cx="11" cy="144.6" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio21_label" x="23" y="146.6" font-family="'ocra10'">TX</text>
+			<text id="pin_gpio21_label" x="23" y="146.6" font-family="'OCRA'">TX</text>
 			<circle id="pin_gpio2" cx="11" cy="170" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio2_label" x="23" y="172" font-family="'ocra10'">2</text>
+			<text id="pin_gpio2_label" x="23" y="172" font-family="'OCRA'">2</text>
 			<circle id="pin_gpio1" cx="11" cy="195.4" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio1_label" x="23" y="197.4" font-family="'ocra10'">1</text>
+			<text id="pin_gpio1_label" x="23" y="197.4" font-family="'OCRA'">1</text>
 			<circle id="pin_gpio0" cx="11" cy="220.8" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio0_label" x="23" y="222.8" font-family="'ocra10'">0</text>
+			<text id="pin_gpio0_label" x="23" y="222.8" font-family="'OCRA'">0</text>
 		</g>
 		<g id="right_pins_with_labels" font-size="8px" fill="#E6E6E6" text-anchor="end">
 			<circle id="pin_gpio10" cx="194" cy="43" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio10_label" x="182" y="45" font-family="'ocra10'">10</text>
+			<text id="pin_gpio10_label" x="182" y="45" font-family="'OCRA'">10</text>
 			<circle id="pin_gpio9" cx="194" cy="68.4" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio9_label" x="182" y="70.4" font-family="'ocra10'">9</text>
+			<text id="pin_gpio9_label" x="182" y="70.4" font-family="'OCRA'">9</text>
 			<circle id="pin_gpio8" cx="194" cy="93.8" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
-			<text id="pin_gpio8_label" x="182" y="95.8" font-family="'ocra10'">8</text>
+			<text id="pin_gpio8_label" x="182" y="95.8" font-family="'OCRA'">8</text>
 			<circle id="pin_gpio7" cx="194" cy="119.2" fill="#d9d9d9" stroke="#9A916C"  r="7" style="stroke-width:2"/>
-			<text id="pin_gpio7_label" x="182" y="121.2" font-family="'ocra10'">7</text>
+			<text id="pin_gpio7_label" x="182" y="121.2" font-family="'OCRA'">7</text>
 			<circle id="pin_gpio6" cx="194" cy="144.6" fill="#d9d9d9" stroke="#9A916C"  r="7" style="stroke-width:2"/>
-			<text id="pin_gpio6_label" x="182" y="146.6" font-family="'ocra10'">6</text>
+			<text id="pin_gpio6_label" x="182" y="146.6" font-family="'OCRA'">6</text>
 			<circle id="pin_gpio5" cx="194" cy="170" fill="#d9d9d9" stroke="#9A916C"  r="7" style="stroke-width:2"/>
-			<text id="pin_gpio5_label" x="182" y="172" font-family="'ocra10'">5</text>
+			<text id="pin_gpio5_label" x="182" y="172" font-family="'OCRA'">5</text>
 			<circle id="pin_gpio4" cx="194" cy="195.4" fill="#d9d9d9" stroke="#9A916C"  r="7" style="stroke-width:2"/>
-			<text id="pin_gpio4_label" x="182" y="197.4" font-family="'ocra10'">4</text>
+			<text id="pin_gpio4_label" x="182" y="197.4" font-family="'OCRA'">4</text>
 			<circle id="pin_gpio3" cx="194" cy="220.8" fill="#d9d9d9" stroke="#9A916C"  r="7" style="stroke-width:2"/>
-			<text id="pin_gpio3_label" x="182" y="222.8" font-family="'ocra10'">3</text>
+			<text id="pin_gpio3_label" x="182" y="222.8" font-family="'OCRA'">3</text>
 		</g>
 	</g>
 </svg>
