@@ -9,13 +9,13 @@
 		<rect id="onboard_led" x="39" y="40" width="8" height="12" fill="#3fa9ff"/>
 		<rect id="power_led" x="160" y="40" width="8" height="12" fill="#ff3b3b"/>
 		<rect id="display" x="46" y="161" width="115" height="65" rx="2" fill="#000000" stroke="#222222" stroke-width="2.5"/>
-		<text id="dislay_label" x="100" y="180" font-family="'OCRA'" font-size="8px" fill="#E6E6E6" text-anchor="middle"><tspan id="display_label_line1" x="102.5" y="185">SSD1306 OLED</tspan><tspan id="display_label_line2" x="102.5" y="195">resolution 72x40</tspan><tspan id="display_label_line3" x="102.5" y="205">origin at (28,24)</tspan></text>
+		<text id="dislay_label" x="100" y="180" font-family="'OCRA'" font-size="0.9mm" fill="#E6E6E6" text-anchor="middle"><tspan id="display_label_line1" x="102.5" y="185">SSD1306 OLED</tspan><tspan id="display_label_line2" x="102.5" y="195">resolution 72x40</tspan><tspan id="display_label_line3" x="102.5" y="205">origin at (28,24)</tspan></text>
 		<rect id="boot_button" x="19" y="242" width="38" height="24" rx="3" fill="#8C8C8C"/>
-		<text id="boot_button_label" x="38" y="256" font-family="'OCRA'" font-size="7px" fill="#E6E6E6" text-anchor="middle">BOOT</text>
+		<text id="boot_button_label" x="38" y="256" font-family="'OCRA'" font-size="1mm" fill="#E6E6E6" text-anchor="middle">BOOT</text>
 		<rect id="reset_button" x="148" y="242" width="38" height="24" rx="3" fill="#8C8C8C"/>
-		<text id="reset_button_label" x="168" y="256" font-family="'OCRA'" font-size="7px" fill="#E6E6E6" text-anchor="middle">RESET</text>
+		<text id="reset_button_label" x="168" y="256" font-family="'OCRA'" font-size="1mm" fill="#E6E6E6" text-anchor="middle">RESET</text>
 		<rect id="ceramic_antenna" x="90" y="250" width="25" height="15" rx="1" fill="#CA0000"/>
-		<g id="left_pins_with_labels" font-size="8px" fill="#E6E6E6">
+		<g id="left_pins_with_labels" font-size="1mm" fill="#E6E6E6">
 			<circle id="pin_5v" cx="11" cy="43" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
 			<text id="pin_5v_label" x="23" y="45" font-family="'OCRA'">5V</text>
 			<circle id="pin_gnd" cx="11" cy="68.4" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
@@ -33,7 +33,7 @@
 			<circle id="pin_gpio0" cx="11" cy="220.8" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
 			<text id="pin_gpio0_label" x="23" y="222.8" font-family="'OCRA'">0</text>
 		</g>
-		<g id="right_pins_with_labels" font-size="8px" fill="#E6E6E6" text-anchor="end">
+		<g id="right_pins_with_labels" font-size="1mm" fill="#E6E6E6" text-anchor="end">
 			<circle id="pin_gpio10" cx="194" cy="43" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
 			<text id="pin_gpio10_label" x="182" y="45" font-family="'OCRA'">10</text>
 			<circle id="pin_gpio9" cx="194" cy="68.4" fill="#d9d9d9" stroke="#9A916C" r="7" style="stroke-width:2"/>
