@@ -27,124 +27,124 @@
 	</views>
 	<connectors>
 		<!-- Power -->
-  <connector id="usb" type="usb" name="USB-C">
+		<connector id="usb" type="usb" name="USB-C">
 			<views>
 				<breadboardView>
-					<p svgId="usb_c"/>
+					<p layer="breadboard" svgId="usb_c"/>
 				</breadboardView>
 			</views>
 		</connector>
 		<!-- Left header (top to bottom) -->
-  <connector id="5v" type="male" name="5V">
+		<connector id="5v" type="male" name="5V">
 			<views>
 				<breadboardView>
-					<p svgId="pin_5v"/>
+					<p layer="breadboard" svgId="pin_5v"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gnd" type="male" name="GND">
+		<connector id="gnd" type="male" name="GND">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gnd"/>
+					<p layer="breadboard" svgId="pin_gnd"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="3v3" type="male" name="3V3">
+		<connector id="3v3" type="male" name="3V3">
 			<views>
 				<breadboardView>
-					<p svgId="pin_3v3"/>
+					<p layer="breadboard" svgId="pin_3v3"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio20" type="male" name="RX / GPIO20">
+		<connector id="gpio20" type="male" name="RX / GPIO20">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio20"/>
+					<p layer="breadboard" svgId="pin_gpio20"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio21" type="male" name="TX / GPIO21">
+		<connector id="gpio21" type="male" name="TX / GPIO21">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio21"/>
+					<p layer="breadboard" svgId="pin_gpio21"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio2" type="male" name="A2 / GPIO2">
+		<connector id="gpio2" type="male" name="A2 / GPIO2">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio2"/>
+					<p layer="breadboard" svgId="pin_gpio2"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio1" type="male" name="A1 / GPIO1">
+		<connector id="gpio1" type="male" name="A1 / GPIO1">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio1"/>
+					<p layer="breadboard" svgId="pin_gpio1"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio0" type="male" name="A0 / GPIO0">
+		<connector id="gpio0" type="male" name="A0 / GPIO0">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio0"/>
+					<p layer="breadboard" svgId="pin_gpio0"/>
 				</breadboardView>
 			</views>
 		</connector>
 		<!-- Right header (top to bottom) -->
-  <connector id="gpio10" type="male" name="GPIO10">
+		 <connector id="gpio10" type="male" name="GPIO10">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio10"/>
+					<p layer="breadboard" svgId="pin_gpio10"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio9" type="male" name="GPIO9 / SCL / BOOT button">
+		<connector id="gpio9" type="male" name="GPIO9 / SCL / BOOT button">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio9"/>
+					<p layer="breadboard" svgId="pin_gpio9"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio8" type="male" name="GPIO8 / SDA / onboard LED">
+		<connector id="gpio8" type="male" name="GPIO8 / SDA / onboard LED">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio8"/>
+					<p layer="breadboard" svgId="pin_gpio8"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio7" type="male" name="GPIO7 / SS">
+		<connector id="gpio7" type="male" name="GPIO7 / SS">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio7"/>
+					<p layer="breadboard" svgId="pin_gpio7"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio6" type="male" name="GPIO6 / MOSI">
+		<connector id="gpio6" type="male" name="GPIO6 / MOSI">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio6"/>
+					<p layer="breadboard" svgId="pin_gpio6"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio5" type="male" name="GPIO5 / A5 / MISO">
+		<connector id="gpio5" type="male" name="GPIO5 / A5 / MISO">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio5"/>
+					<p layer="breadboard" svgId="pin_gpio5"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio4" type="male" name="GPIO4 / A4">
+		<connector id="gpio4" type="male" name="GPIO4 / A4">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio4"/>
+					<p layer="breadboard" svgId="pin_gpio4"/>
 				</breadboardView>
 			</views>
 		</connector>
-  <connector id="gpio3" type="male" name="GPIO3 / A3">
+		<connector id="gpio3" type="male" name="GPIO3 / A3">
 			<views>
 				<breadboardView>
-					<p svgId="pin_gpio3"/>
+					<p layer="breadboard" svgId="pin_gpio3"/>
 				</breadboardView>
 			</views>
 		</connector>
